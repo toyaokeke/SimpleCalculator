@@ -1,6 +1,6 @@
-# Number Calculator
+# String Calculator
 
-This is a simple GUI of a number calculator that uses a client-server architecture nd MVC pattern.
+This is a simple GUI of a string calculator that uses a client-server architecture nd MVC pattern.
 The program is designed to have multiple calculators running or your computer using a threadpool to handle the requests
 
 ## Requirements
@@ -23,8 +23,8 @@ java server/controller/ServerController
 3. In the other terminal run the following commands:
 
 ```shell
-javac client/controller/CalculatorController.java
-java client/controller/CalculatorController
+javac client/controller/StringController.java
+java client/controller/StringController
 ```
 And follow the instructions on the screen.
 
